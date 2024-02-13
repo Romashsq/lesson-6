@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+
+.main-box div {
+  outline: 2px solid red;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.first-box {
+  background: green;
+  font-size: 0;
+}
+
+.first-box > div {
+  width: 400px;
+  display: inline-block;
+  font-size: 20px;
+  height: 400px;
+}
+
+.second-box {
+  font-size: 0;
+  background: rgb(224, 167, 216);
+}
+
+.second-box > div {
+  display: inline-block;
+  font-size: 20px;
+  width: 800px;
+}
+
+.second-box > div + div {
+  width: 400px;
+}
+
+.second-box-one > div {
+  height: 200px;
+}
+
+.second-box-two > div {
+  height: 133.333px;
+}
+
+.third-box {
+  font-size: 0;
+  background: blanchedalmond;
+}
+
+.third-box > div {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.third-box-one {
+  width: 400px;
+  height: 400px;
+}
+.third-box-two {
+  width: 800px;
+}
+
+.third-box-two-one {
+  height: 200px;
+}
+
+.third-box-two-two {
+  font-size: 0;
+}
+.third-box-two-two > div {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.third-box-two-two-two > div {
+  height: 100px;
+}
